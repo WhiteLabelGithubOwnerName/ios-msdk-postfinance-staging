@@ -1364,6 +1364,16 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
+        "moduleName": "PostFinanceCheckoutSdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
         "moduleName": "PostFinanceCheckoutSdk"
       },
       {
@@ -1504,6 +1514,32 @@
             "declKind": "Func",
             "usr": "s:22PostFinanceCheckoutSdkAAC17configureApplePay10merchantIdySS_tF",
             "mangledName": "$s22PostFinanceCheckoutSdkAAC17configureApplePay10merchantIdySS_tF",
+            "moduleName": "PostFinanceCheckoutSdk",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureDeepLink",
+            "printedName": "configureDeepLink(deepLink:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22PostFinanceCheckoutSdkAAC17configureDeepLink04deepG0ySS_tF",
+            "mangledName": "$s22PostFinanceCheckoutSdkAAC17configureDeepLink04deepG0ySS_tF",
             "moduleName": "PostFinanceCheckoutSdk",
             "declAttributes": [
               "AccessControl"
@@ -2302,7 +2338,7 @@
     {
       "filePath": "\/Users\/gitlab\/builds\/wallee-payment\/frontend\/mobile-sdk-android\/PostFinanceCheckout\/PostFinanceCheckoutSdk\/PostFinanceCheckoutSdk.swift",
       "kind": "StringLiteral",
-      "offset": 248,
+      "offset": 247,
       "length": 2,
       "value": "\"\""
     },
